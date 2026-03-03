@@ -13,8 +13,8 @@ app = typer.Typer()
 def show_dashboard():
     dashboard_text = Text()
     dashboard_text.append("=== YT-DL CLI ===\n", style="bold sea_green1")
-    dashboard_text.append("CLI Tools YouTube Downloader for my Arch Linux\n", style="italic grey50")
-    dashboard_text.append("-" * 30, style="grey37")
+    dashboard_text.append("CLI Tools YouTube Video/Audio Downloader\n", style="italic grey50")
+    dashboard_text.append("-" * 35, style="grey37")
     
     console.print(Panel(dashboard_text, expand=False, border_style="sea_green1"))
 
