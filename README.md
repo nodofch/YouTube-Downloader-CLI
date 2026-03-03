@@ -1,4 +1,4 @@
-# 🚀 YT-DL CLI (Arch Linux Style)
+# YT-DL CLI (Arch Linux Style)
 
 Aplikasi CLI minimalis dan interaktif untuk mendownload video atau audio dari YouTube. Dibangun dengan Python, **uv**, **Typer**, dan **Rich** untuk pengalaman terminal yang modern.
 
