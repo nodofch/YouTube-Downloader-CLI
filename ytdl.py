@@ -42,7 +42,7 @@ def main():
         raise typer.Exit()
 
     # 3. Menu Pilihan Format
-    console.print("\n[bold yellow]Pilih Format Muat Turun:[/bold yellow]")
+    console.print("\n[bold yellow]Pilih Format Download:[/bold yellow]")
     console.print("1. [bold cyan]MP4[/bold cyan] (Video)")
     console.print("2. [bold magenta]MP3[/bold magenta] (Audio)")
     
