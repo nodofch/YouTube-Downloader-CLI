@@ -2,7 +2,7 @@
 
 Aplikasi CLI minimalis dan interaktif untuk mendownload video atau audio dari YouTube. Dibangun dengan Python, **uv**, **Typer**, dan **Rich** untuk pengalaman terminal yang modern.
 
-![Tampilan YT-DL CLI](assets/screenshot_2026-03-03_14-37-09.png)
+![Tampilan YT-DL CLI](assets/screenshot_2026-03-03_17-46-06.png)
 
 ## ✨ Fitur
 - 🖥️ **Dashboard Interaktif**: Antarmuka terminal yang bersih dan berwarna.
