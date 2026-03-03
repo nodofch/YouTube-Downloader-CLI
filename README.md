@@ -16,3 +16,19 @@ Pastikan sistem kamu sudah terinstall **FFmpeg** (untuk penggabungan video & aud
 
 ```bash
 sudo pacman -S ffmpeg
+```
+
+## Instalasi
+Ikuti langkah dibawah untuk menginstal Tools:
+```bash
+git clone https://github.com/nodofch/YouTube-Downloader-CLI.git
+cd YouTube-Downloader-CLI
+uv tool install . --force
+uv tool update-shell
+```
+
+## Cara Penggunaan
+Ketik di terminal kamu:
+```bash
+ytdl
+```
