@@ -12,3 +12,6 @@ dependencies = [
 
 [project.scripts]
 ytdl = "ytdl:main"
+
+[tool.setuptools]
+py-modules = ["ytdl"]
