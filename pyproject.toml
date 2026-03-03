@@ -1,7 +1,7 @@
 [project]
-name = "yt-dl-cli"
+name = "youtube-downloader-cli"
 version = "0.1.0"
-description = "CLI Downloader YouTube buat user Arch"
+description = "CLI Downloader YouTube"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
