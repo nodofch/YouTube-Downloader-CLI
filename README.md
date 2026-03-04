@@ -15,7 +15,14 @@ Aplikasi CLI minimalis dan interaktif untuk mendownload video atau audio dari Yo
 Pastikan sistem kamu sudah terinstall **FFmpeg** (untuk penggabungan video & audio):
 
 ```bash
+# Arch Linux
 sudo pacman -S ffmpeg
+
+# Ubuntu / Debian
+sudo apt install ffmpeg
+
+# Fedora
+sudo dnf install ffmpeg
 ```
 
 ## Instalasi
