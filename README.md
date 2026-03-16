@@ -1,18 +1,18 @@
 # YT-DL CLI (Arch Linux Style)
 
-Aplikasi CLI minimalis dan interaktif untuk mendownload video atau audio dari YouTube. Dibangun dengan Python, **uv**, **Typer**, dan **Rich** untuk pengalaman terminal yang modern.
+A minimalist and interactive CLI application for downloading YouTube videos or audio. Built with Python, uv, Typer, and Rich for a modern terminal experience.
 
-![Tampilan YT-DL CLI](assets/screenshot_2026-03-03_17-46-06.png)
+![Display YT-DL CLI](assets/screenshot_2026-03-03_17-46-06.png)
 
-## ✨ Fitur
-- 🖥️ **Dashboard Interaktif**: Antarmuka terminal yang bersih dan berwarna.
-- 📥 **Input Mudah**: Tidak perlu argumen panjang, cukup masukkan URL saat diminta.
-- 🔄 **Pilihan Format**: Pilih antara **MP4 (Video)** atau **MP3 (Audio)** secara langsung.
-- 📊 **Progress Bar Cantik**: Pantau kecepatan download dan estimasi waktu secara real-time.
-- ⚡ **Ringan & Cepat**: Menggunakan `uv` untuk manajemen paket yang efisien.
+## ✨ Features
+- 🖥️ **Interactive Dashboard**: Clean and colorful terminal user interface.
+- 📥 **Simple Input**: No long arguments needed—just paste the URL when prompted.
+- 🔄 **Format Options**: Choose between MP4 (Video) or MP3 (Audio) on the fly.
+- 📊 **Beautiful Progress Bar**: Monitor download speed and ETA in real-time.
+- ⚡ **Lightweight & Fast**: Powered by `uv` for efficient package management.
 
-## 🛠️ Prasyarat
-Pastikan sistem kamu sudah terinstall **FFmpeg** (untuk penggabungan video & audio):
+## 🛠️ Prerequisites
+Ensure **FFmpeg** is installed on your system (required for merging video & audio streams):
 
 ```bash
 # Arch Linux
@@ -25,8 +25,8 @@ sudo apt install ffmpeg
 sudo dnf install ffmpeg
 ```
 
-## Instalasi
-Ikuti langkah dibawah untuk menginstal Tools:
+## Instalation
+Follow these steps to install the tool:
 ```bash
 git clone https://github.com/nodofch/YouTube-Downloader-CLI.git
 cd YouTube-Downloader-CLI
@@ -34,8 +34,8 @@ uv tool install . --force
 uv tool update-shell
 ```
 
-## Cara Penggunaan
-Ketik di terminal kamu:
+## Usage
+Simply run the following command in your terminal::
 ```bash
 ytdl
 ```
